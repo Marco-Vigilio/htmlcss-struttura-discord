@@ -153,6 +153,10 @@ header{
     background-color: #228B22;
 }
 
+.sfondo-verde-acqua{
+    background-color: #20B2AA;
+}
+
 /*rettangoli*/
 
 .rettangolo{
@@ -166,10 +170,25 @@ header{
     margin: 30px 0;
 }
 
-.colonna{
+.contenitore{
     width: 800px;
     height: 300px;
-    margin: 20px 0;
+    margin: 30px 0;
+}
+
+.colonna-uno{
+    width: 30%;
+    height: 300px;
+}
+
+.colonna-due{
+    width: 70%;
+}
+
+.colonnine{
+    width: 25%;
+    height: 300px;
+    border: white dashed 1px;
 }
 
 .bordo-trat{
