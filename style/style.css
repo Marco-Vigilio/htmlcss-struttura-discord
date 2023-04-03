@@ -11,35 +11,33 @@
 }
 
 body{
-    background-color: aliceblue;
     font-family: 'Overpass', sans-serif;
     font-family: 'Roboto', sans-serif;
 }
 
-
 header{
     background-color:#ADD8E6;
-    
-}
-
-ul{
-    list-style-type: none;
-}
-
-.margin-0-auto{
-    margin: 0 auto;
+    padding-bottom: 5px;
 }
 
 .container-flex{
     display: flex;
-    justify-content: center;
     align-items: center;
 }
 
 .dimensione{
     width: 800px;
+    padding: 2% 0;
+    margin: 0 auto;
 }
 
+.dimensione-piccola{
+    width: 800px;
+    padding: 0.5% 0;
+    margin: 0 auto;
+}
+
+/*PRIMA PARTE DEL HEADER*/
 .sezione-gialla{
         background-color: #DAA520;
         border: dashed 2px black;
@@ -48,34 +46,64 @@ ul{
         margin: 10px 0;
     }
 
-    .centrato{
-        display: flex;
-        align-items: center;
+    .sinistra{
+        justify-content: flex-start;
     }
+
+    .centrato{
+        justify-content: center;
+    }
+
+        ul{
+            list-style-type: none;
+        }    
+
     .destra{
-        display: flex;
         justify-content: flex-end;
-        align-items: center;
     }
 
         li{
             margin-right: 5px;
         }
 
-    .sinistra{
-        display: flex;
-        justify-content: flex-start;
-        align-items: center;
-    }
+    
 
-    .sezione-blu{
+/*SECONDA PARTE DEL HEADER*/
+.sezione-blu{
         background-color: #00008B;
-        margin-bottom: 50px;
     }
 
     .rettangolo-rosa-special{
         background-color: #EE82EE;
         width: 100%;
         height: 200px;
-        margin: 30px 100px;
+        margin: 0 100px;
     }
+
+
+.sfondo-grigio{
+    background-color: gainsboro;
+}
+    .rosa{
+        background-color: #FFC0CB;
+        width: 40%;
+    }
+
+    .azzurro{
+        background-color: #1E90FF;
+        width: 60%;
+    }
+
+    .rettangolo{
+        height: 300px;
+        border: dashed black 1px;
+    }
+
+    .colonne{
+        flex-direction: column;
+    }
+
+    .inverso{
+        flex-direction: row-reverse;
+    }
+
