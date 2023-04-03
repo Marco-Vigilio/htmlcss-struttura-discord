@@ -73,7 +73,7 @@ header{
         background-color: #00008B;
     }
 
-    .rettangolo-rosa-special{
+    .rettangolo-rosa-primo{
         background-color: #EE82EE;
         width: 100%;
         height: 200px;
@@ -84,7 +84,7 @@ header{
 .sfondo-grigio{
     background-color: gainsboro;
 }
-    .rosa{
+    .rosa-secondo{
         background-color: #FFC0CB;
         width: 40%;
     }
@@ -107,3 +107,50 @@ header{
         flex-direction: row-reverse;
     }
 
+.rettangolone{
+    background-color: #228B22;
+    width: 100%;
+    height: 500px;
+}
+
+.centrato-sopra{
+    justify-content: center;
+    align-items: flex-start;
+    background-color: #DAA520;
+}
+
+.sfondo-nero{
+    background-color: #23272A;
+    margin-bottom: 0.1% ;
+}
+
+.rosa-terzo{
+    background-color: #F08080;
+    width: 30%;
+}
+
+.aside{
+    width: 70%;
+}
+
+.verde-acqua{
+    background-color: #20B2AA;
+    width: 30%;
+    border: white 1px dashed;
+}
+
+.colore{
+    background-color: #00008B;
+    width: 200px;
+    height: 200px;
+}
+
+.rid{
+    justify-content: center;
+    align-content: end;
+}
+
+.sfondo{
+    background-color: red;
+    height: 500px;
+}
