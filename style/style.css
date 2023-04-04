@@ -84,7 +84,7 @@ ul{
 */
 
 .header-cont{
-    height: 80px;
+    height: 50px;
     width: 800px;
     margin: 0 auto;
     padding: 20px 0;
@@ -187,8 +187,8 @@ header{
 }
 
 .header-box{
-    width: 100px;
-    height: 100px;
+    width: 800px;
+    height: 30px;
 }
 
 .colonna-uno{
@@ -221,6 +221,8 @@ header{
 .pad{
     padding: 5px;
 }
+
+/*regole speciali*/
 
 .margine{
     margin-top: 1px;
