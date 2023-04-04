@@ -11,8 +11,23 @@
         <title>Struttura Discord</title>
     </head>
     <body>
-        <header class="sfondo-azzurrino">
-            <!--PRIMA PARTE HEADER-->
+        <header class="sfondo-azzurrino clearfix flex-colonna">
+            <section class="sfondo contenitore clearfix flex-centro">
+                <nav class="sfondo-giallino clearfix">
+                    <div class="bordo-trat pad clearfix flex-sinistra">Logo</div>
+                    <div class="bordo-trat pad clearfix flex-centro">
+                        <ul class="clearfix">
+                            <li class="pad">link</li>
+                            <li class="pad">link</li>
+                            <li class="pad">link</li>
+                            <li class="pad">link</li>
+                        </ul>
+                    </div>
+                    <div class="bordo-trat pad clearfix flex-destra">Login</div>
+                </nav>
+            </section>
+
+            <!--PRIMA PARTE HEADER
             <nav class="clearfix flex-centro">
                 <div class="header-cont clearfix flex-centro">
                     <div class="sfondo-giallino bordo-trat pad little-cont clearfix flex-sinistra">Logo</div>
@@ -27,37 +42,41 @@
                     <div class="sfondo-giallino bordo-trat pad little-cont clearfix flex-destra">Login</div>
                 </div>
             </nav>
+        -->
 
             <!--SECONDA PARTE HEADER-->
-            <section class="sfondo-blu">
-                <div class="normale-sect clearfix flex-centro">
-                    <div class="cont sfondo-rosa-uno box">
+            <section class="sfondo">
+                <section class="sfondo-blu clearfix flex-centro">
+                    <div class="contenitore clearfix flex-centro">
+                        <div class="sfondo-rosa-uno rettangolino">
+                        </div>
                     </div>
-                </div>
+                </section>
             </section>
+            
         </header>
         
         <main>
             <!--RETTANGOLI BLU E ROSA-->
-            <section>
-                <div class="normale-sect clearfix flex-centro">
-                    <div class="rettangolo bordo-trat sfondo-azzurro"></div>
-                    <div class="rettangolo bordo-trat sfondo-rosa-due"></div>
-                </div> 
+            <section class="clearfix flex-centro">
+                <div class="contenitore clearfix flex-centro">
+                    <div class="rettangolo grandezza-uno bordo-trat sfondo-azzurro"></div>
+                    <div class="rettangolo grandezza-due bordo-trat sfondo-rosa-due"></div>
+                </div>
             </section>
 
-            <section class="sfondo-grigio">
-                <div class="normale-sect clearfix flex-centro flex-reverse">
-                    <div class="rettangolo bordo-trat sfondo-azzurro"></div>
-                    <div class="rettangolo bordo-trat sfondo-rosa-due"></div>
-                </div> 
+            <section class="sfondo-grigio clearfix flex-centro">
+                <div class="contenitore clearfix flex-centro flex-reverse">
+                    <div class="rettangolo grandezza-uno bordo-trat sfondo-azzurro"></div>
+                    <div class="rettangolo grandezza-due bordo-trat sfondo-rosa-due"></div>
+                </div>
             </section>
 
-            <section>
-                <div class="normale-sect clearfix flex-centro">
-                    <div class="rettangolo bordo-trat sfondo-azzurro"></div>
-                    <div class="rettangolo bordo-trat sfondo-rosa-due"></div>
-                </div> 
+            <section class="clearfix flex-centro">
+                <div class="contenitore clearfix flex-centro">
+                    <div class="rettangolo grandezza-uno bordo-trat sfondo-azzurro"></div>
+                    <div class="rettangolo grandezza-due bordo-trat sfondo-rosa-due"></div>
+                </div>
             </section>
 
             <section class="sfondo-grigio">
@@ -65,11 +84,12 @@
                     <div class="bordo-trat rettangolone sfondo-verde"></div>
                 </div>
             </section>
+        
         </main>
         <footer class="sfondo-grigio">
             <!--ULTIMA SEZIONE-->
             <section class="sfondo-scuro clearfix flex-centro">
-                <div class="contenitore clearfix flex-centro">
+                <div class="margini-speciali contenitore clearfix flex-centro">
                     <div class="bordo-trat colonna-uno sfondo-rosa-tre"></div>
                     <div class="bordo-trat colonna-due sfondo-verde-acqua clearfix">
                         <div class="colonnine"></div>
@@ -79,13 +99,13 @@
                     </div>
                 </div>
             </section>
-            <section class="sfondo-scuro">
-                <div class="piccola-sect clearfix flex-sotto">
-                    <div class="little-cont sfondo-verde-chiaro clearfix flex-opposti">
-                        <div class="sfondo-rosa-due bordo-trat pad">Logo</div>
-                        <div class="sfondo-rosa-due bordo-trat pad">Bottone</div>
+
+            <section class="margine sfondo-scuro clearfix flex-centro">
+                <div class="little-cont clearfix flex-sotto">
+                    <div class="footer-box sfondo-verde-chiaro clearfix flex-opposti">
+                        <div class="sfondo-rosa-due bordo-trat pad clearfix flex-sinistra">Logo</div>
+                        <div class="sfondo-rosa-due bordo-trat pad clearfix flex-destra">Bottone</div>
                     </div>
-                </div>
                 </div>
             </section>
         </footer>

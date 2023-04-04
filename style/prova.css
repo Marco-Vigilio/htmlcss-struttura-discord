@@ -55,7 +55,14 @@ ul{
     flex-direction: row-reverse;
 }
 
+.flex-colonna{
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+}
 /*CONTENITORI PICCOLE-NORMALI-GRANDI*/
+
+/*
 .piccola-sect{
     height: 100px;
     width: 800px;
@@ -68,42 +75,33 @@ ul{
     height: 60%;
 }
 
-.header-cont{
-    height: 80px;
-    width: 800px;
-    margin: 0 auto;
-}
-
 .normale-sect{
     height: 300px;
     width: 800px;
     margin: 0 auto;
 }
 
+*/
+
+.header-cont{
+    height: 80px;
+    width: 800px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+
 .cont{
     width: 100%;
     height: 60%;
 }
 
-.grande-sect{
-    width: 800px;
-    margin: 0 auto;
-}
 
-.big-cont{
-    width: 800px;
-    height: 100px;
-}
 
 /*PRIMA SEZIONE*/
 header{
     background-color: #ADD8E6;
     padding-bottom:  5px;
-}
-
-.box{
-    width: 80%;
-    height: 80%;
 }
 
 /*sfondi*/
@@ -133,7 +131,6 @@ header{
 
 .sfondo-rosa-due{
     background-color: #FFC0CB;
-    width: 40%;
 }
 
 .sfondo-rosa-tre{
@@ -142,7 +139,6 @@ header{
 
 .sfondo-azzurro{
     background-color: #1E90FF;
-    width: 60%;
 }
 
 .sfondo-grigio{
@@ -159,9 +155,13 @@ header{
 
 /*rettangoli*/
 
+.rettangolino{
+    width: 600px;
+    height: 250px;
+}
+
 .rettangolo{
-    height: 80%;
-    margin: 20px 0;
+    height: 100%;
 }
 
 .rettangolone{
@@ -173,7 +173,17 @@ header{
 .contenitore{
     width: 800px;
     height: 300px;
-    margin: 30px 0;
+    padding: 30px 0; /*metto il margine sopra e sotto altrimenti copre tutti il div*/
+}
+
+.little-cont{
+    width: 800px;
+    height: 100px;
+}
+
+.footer-box{
+    width: 100%;
+    height: 70%;
 }
 
 .colonna-uno{
@@ -191,10 +201,27 @@ header{
     border: white dashed 1px;
 }
 
+.grandezza-uno{
+    width: 60%;
+}
+
+.grandezza-due{
+    width: 40%;
+}
+
 .bordo-trat{
     border: 1px dashed black;
 }
 
 .pad{
     padding: 5px;
+}
+
+.margine{
+    margin-top: 1px;
+}
+
+.margini-speciali{
+    margin-top: 3px;
+    margin-bottom: 20px;
 }
